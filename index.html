@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porfolio - Fabián Florentin</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    </link>
+</head>
+
+<!-- Navegación tipo Menu-->
+<nav class="navbar navbar-expand-lg bg-warning">
+    <div class="container-fluid">
+        <a class="navbar-brand" id="idMenu">
+            <h4>Menú</h4>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#idFormacion">Formación académica</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#idHabilidades">Habilidades</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#idProyectos">Proyectos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#idContacto" role="button" aria-expanded="false">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!--Botón de volver a Menu-->
+<button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top" href="#idMenu">
+    <i class="fas fa-chevron-up"></i> <!--NO ME SALE LA FLECHITA NO SE PORQUE :(( -->
+</button>
+
+<body>
+
+    <!--PRIMERA SECCIÓN-->
+    <div class="container-fluid">
+        <div class="row  fondo-pagina1">
+            <div class="col">
+                <div class="row">
+                    <div class="col-6 align-self-center">
+                        <div class="row">
+                            <h2>Mi nombre es</h2>
+                        </div>
+                        <div class="row">
+                            <h2>Fabián Florentin</h2>
+                        </div>
+                        <div class="row">
+                            <h6>Soy Consultor SAP ABAP/Fiori y Desarrollador Web </h6>
+                        </div>
+                        <div class="row">
+                            <img class="img-fluid" src="imagenes/img-separador.svg" alt="Barra separadora">
+                        </div>
+                        <div class="row-10 espacio-sup d-flex justify-content-center">
+                            <a type="button" class="btn btn-light btn-lg"
+                                href="https://github.com/Fabian-Florentin?tab=repositories" target="_blank">Github
+                                desarrollo web</a>
+                        </div>
+                    </div>
+                    <div class="col align-items-end">
+                        <img src="imagenes/Foto frontal recortada.png" class="img-fluid" alt="Mi foto de perfil">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--SEGUNDA SECCIÓN-->
+    <div class="container-fluid m-1">
+        <div class="row fondo-pagina2">
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row" id="idFormacion">
+                            <h3>Formación académica</h3>
+                            <div class="row p-2 h-50 w-50">
+                                <h6>Instituto de Formación Técnico Superior Nro 11</h6>
+                                <img src="imagenes/formacion/IFTS 11.svg" class="img-fluid h-90 w-50" alt="Imágen IFTS Nro 11">
+                            </div>
+                            <div class="row p-2">
+                                <h6>Universidad Tecnológica Nacional - Cursos Web</h6>
+                                <img src="imagenes/formacion/UTN BA.svg" class="img-fluid h-90 w-50" alt="Imágen UTN BA">
+                            </div>
+                            <div class="row p-2">
+                                <h6>Empresa Accenture - Escuelita SAP ABAP</h6>
+                                <img src="imagenes/formacion/accenture.svg" class="img-fluid h-90 w-50" alt="Imágen Accenture">
+                            </div>
+                            <div class="row p-2">
+                                <h6>Logali Group - Cursos Fiori</h6>
+                                <img src="imagenes/formacion/Logali Group.svg" class="img-fluid h-90 w-50"
+                                    alt="Imágen Logali Group">
+                            </div>
+                            
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-sm-6 p-1">
+                <!--style="width:fit-content;"-->
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row" id="idHabilidades">
+                            <h3>Habilidades</h3>
+                            <!-- NO ENCUENTRO IMAGEN A MEDIDA PARA EL ICONO HTML :( -->
+                            <!--<div class="row">
+                                <img src="imagenes/habilidades/html-5.png" class="img-fluid  w-50 h-5   0" alt="Imágen HTML5">
+                            </div> -->
+                            <div class="col-3 text-center">
+                                <img src="imagenes/habilidades/css-logo.png" class="img-fluid" alt="Imágen CSS">
+                            </div>
+                            <div class="col-3 text-center">
+                                <img src="imagenes/habilidades/javascript.svg" class="img-fluid" alt="Imágen JavaScript">
+                            </div>
+                            <div class="col-3 text-center">
+                                <img src="imagenes/habilidades/Bootstrap.png" class="img-fluid" alt="Imágen Bootstrap">
+                            </div>
+                            <div class="col-3 text-center">
+                                <img src="imagenes/habilidades/Microsoft_Office_Excel.svg" class="img-fluid" alt="Imágen Excel">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-4 text-center">
+                                <img src="imagenes/habilidades/SAP_ECC.png" class="img-fluid" alt="Imágen SAP ECC">
+                            </div>
+                            <div class="col-4 text-center">
+                                <img src="imagenes/habilidades/sap-hana.webp" class="img-fluid" alt="Imágen SAP HANA">
+                            </div>
+                            <div class="col-4 text-center">
+                                <img src="imagenes/habilidades/logo-sap-fiori.png" class="img-fluid" alt="Imágen SAP FIORI">
+                            </div>
+                        </div>
+
+                        <div class="row m-5">
+                            <div class="col-3 text-center">
+                                <img src="imagenes/habilidades/MySQL-Logo_adobe_express.svg" class="img-fluid" alt="Imágen MySQL">
+                            </div>
+                            <div class="col-3 text-center">
+                                <img src="imagenes/habilidades/Csharp.png" class="img-fluid" alt="Imágen CSHARP">
+                            </div>
+                            <div class="col-6 text-center">
+                                <img src="imagenes/habilidades/Eclipse-Luna-Logo.svg" class="img-fluid" alt="Imágen Eclipse">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <!--TERCERA SECCIÓN-->
+    <div class="container-fluid m-2">
+        <div class="fondo-pagina3" id="idProyectos">
+            <h3>Proyectos</h3>
+            <div class="row  d-flex align-items-center">
+                <h6>Desarrollador en SAP ABAP</h6>
+                <div class="col-sm-4">
+                    <img src="imagenes/proyecto/Ecogas.png" class="img-fluid" alt="Imágen Ecogas">
+                </div>
+                <div class="col-sm-4">
+                    <img src="imagenes/proyecto/Roemmers.jpg" class="img-fluid" alt="Imágen Roemmers">
+                </div>
+
+            </div>
+
+            <div class="row justify-contend-end">
+                <h6>Desarrollador en SAP FIORI Full Stack</h6>
+                <div class="col-sm-4">
+                    <img src="imagenes/proyecto/SSAN.jpg" class="img-fluid" alt="Imágen San Miguel">
+                </div>
+                <div class="col-sm-4">
+                    <img src="imagenes/proyecto/Telefonica-logo.png" class="img-fluid" alt="Imágen Telefónica">
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <!--PIE PÁGINA-->
+    <footer>
+        <div class="container-fluid">
+            <div class="row fondo-page4 p-4">
+                <div class="col-sm-4">
+                    <div class="row">
+                        <div class="col font-blanco" id="idContacto">
+                            <h3>Contacto</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col ">
+                            <!-- NO CONSIGO UN ICONO LINKEDIN QUE ACOMPAÑE AL DE EMAIL :'( -->
+                            <!-- <img src="imagenes/linkedin.svg" class="img-fluid w-50px w-50px" alt=""> -->
+                            <h7>
+                                <a class="color-link"
+                                    href="https://www.linkedin.com/in/fabian-gabriel-florentin-8b7113ba/"
+                                    target="_blank">Linkedin</a>
+                            </h7>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col font-blanco">
+                            <img src="imagenes/icono-email.svg" class="img-fluid" alt="Icono Email">
+                            <h7>florentin.fabian.g@gmail.com</h7>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-sm-4  font-blanco align-self-end text-center">
+                    <h5>Todos los Derechos Reservados - 2023</h5>
+                </div>
+            </div>
+
+
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
